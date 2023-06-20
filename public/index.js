@@ -2,7 +2,7 @@ let productLink = "";
 getProductDetails = async (link) => {
   try {
     const response = await fetch(
-      "http://localhost:5000/api/v1/getProductData",
+      "/api/v1/getProductData",
       {
         method: "POST",
         headers: {
